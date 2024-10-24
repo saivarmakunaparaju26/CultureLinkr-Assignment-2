@@ -1,0 +1,14 @@
+POST http://localhost:3000/products/
+
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "kitKat",
+    "price": 5,
+    "quality": "good"
+}
+
+###
+
+GET http://localhost:3000/products/
